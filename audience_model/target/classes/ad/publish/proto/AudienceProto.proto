@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_outer_classname = "AudienceProtoBuilder";
+message RequestProto {
+	int32 id=1;
+	string type=2;
+	string name=3;
+}
+message ResponseProto {
+	int32 id=1;
+	string filePath=2;
+}
